@@ -1,0 +1,111 @@
+.containerWelcome {
+  display: flex;
+  flex-direction: column;
+  border-top-style: solid;
+  border-top-width: 120px;
+  min-height: 350px;
+}
+
+.cardImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.cardMessage {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.messageWelcome {
+  color: #5897EF;
+  font-size: 1rem;
+  line-height: 0;
+}
+
+.messageName {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  line-height: 1;
+}
+
+.ellipse {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(88, 151, 239, 0.3);
+}
+
+.ellipse1 {
+  width: 13rem;
+  height: 13rem;
+  z-index: 1;
+}
+
+.ellipse2 {
+  width: 11rem;
+  height: 11rem;
+  z-index: 2;
+}
+
+.ellipse3 {
+  width: 10rem;
+  height: 10rem;
+  z-index: 3;
+}
+
+.profileImage {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  z-index: 4;
+}
+
+@media (min-width: 768px) {
+  .containerWelcome {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 120px;
+    min-height: 50vh;
+  }
+
+  .cardImage {
+    width: 50%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .cardMessage {
+    justify-content: center; 
+    text-align: start;
+    width: 50%;
+  }
+
+  .messageName {
+    line-height: 0;
+  }
+
+  .ellipse1 {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .ellipse2 {
+    width: 23rem;
+    height: 23rem;
+  }
+
+  .ellipse3 {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .profileImage {
+    width: 20rem;
+    height: 20rem;
+  }
+}
