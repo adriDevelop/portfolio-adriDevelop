@@ -13,7 +13,6 @@ const Welcome = () => {
         <h5 className="messageWelcome">Bienvenidx</h5>
         <h2 className="messageName">Soy Adrian Velasco Carrasco</h2>
       </div>
-      
     </div>
   )
 }

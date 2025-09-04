@@ -1,0 +1,115 @@
+
+.containerCurriculum {
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 87vh;
+  }
+
+  .containerEstudios{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .containerMarioLopez{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+
+  .containerDraw{
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+    width: 10%;
+  }
+
+  .containerCircle{
+    border-radius: 2rem;
+    border: 2px solid black;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .containerRaya{
+    border: 1px solid black;
+    flex-grow: 1;
+  }
+
+  .content{
+    padding-left: 1rem;
+  }
+
+  .title{
+    display: flex;
+    flex-direction:column;
+    justify-content:stretch;
+    line-height: 2rem;
+  }
+
+  .title h2{
+    margin-top: 0;
+  }
+
+  ul{
+    margin-top: 0rem;
+    padding: 1rem;
+  }
+
+@media (min-width: 768px) {
+  .containerCurriculum {
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 87vh;
+  }
+
+  .containerEstudios{
+    padding-left: 6.5rem;
+  }
+
+  .containerMarioLopez{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+
+  .containerDraw{
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+    width: 10%;
+  }
+
+  .containerCircle{
+    border-radius: 2rem;
+    border: 2px solid black;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .containerRaya{
+    border: 1px solid black;
+    flex-grow: 1;
+  }
+
+  .containerContent{
+    background-color: #adc8ed;
+    border-radius: 2rem;
+    width: 80rem;
+    margin: 2px;
+  }
+
+  .content{
+    padding-left: 2rem;
+  }
+
+  .title{
+    display: flex;
+    flex-direction:column;
+    justify-content:stretch;
+    line-height: 1rem;
+  }
+
+  .title h2{
+    margin-top: 2rem;
+  }
+}

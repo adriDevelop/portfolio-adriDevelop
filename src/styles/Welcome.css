@@ -3,7 +3,7 @@
   flex-direction: column;
   border-top-style: solid;
   border-top-width: 120px;
-  min-height: 350px;
+  min-height: 100vh;
 }
 
 .cardImage {
@@ -69,8 +69,7 @@
   .containerWelcome {
     flex-direction: row;
     flex-wrap: wrap;
-    padding-top: 120px;
-    min-height: 50vh;
+    min-height: 87vh;
   }
 
   .cardImage {

@@ -1,4 +1,5 @@
 import './App.css'
+import Curriculum from './components/Curriculum';
 import Header from './components/Header';
 import Welcome from './components/Welcome';
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header></Header>
       <Welcome></Welcome>
+      <Curriculum></Curriculum>
     </>
   )
 }
