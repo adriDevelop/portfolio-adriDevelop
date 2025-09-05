@@ -1,0 +1,37 @@
+@media(min-width: 768px){
+    .containerFooter{
+        display: flex;
+        flex-direction: row;
+        min-height: 60vh;
+        background-color: black;
+    }
+
+    .containerLeft{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+    }
+
+    .containerLeft img{
+        height: 200px;
+        width: auto;
+    }
+
+    .containerRight{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 7rem;
+        color: white;
+        width: 60%;
+    }
+
+    ul{
+        list-style-type: none;
+        padding: 0;
+    }
+}

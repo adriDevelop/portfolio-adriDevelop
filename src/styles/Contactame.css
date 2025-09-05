@@ -1,0 +1,40 @@
+@media (min-width: 768px){
+    .containerContactMe{
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        background: linear-gradient(white, #b8cfef);
+    }
+
+    .containerTitleContact{
+        padding-left: 6.5rem;
+    }
+
+    .containerContentContact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+    }
+
+    .containerEllipse1{
+        width: 40rem;
+        height: 40rem;
+        background-color: #9dbeed;
+        z-index: 3;
+    }
+
+    .containerEllipse2{
+        width: 42rem;
+        height: 42rem;
+        background-color: #538edf;
+        z-index: 2;
+    }
+
+    .containerEllipse3{
+        width: 44rem;
+        height: 44rem;
+        background-color: #b8cfef;
+        z-index: 1;
+    }
+}
