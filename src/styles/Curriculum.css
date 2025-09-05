@@ -1,5 +1,6 @@
 
 .containerCurriculum {
+    background: linear-gradient(white 2%, #b8cfef);
     flex-direction: row;
     flex-wrap: wrap;
     min-height: 87vh;
@@ -92,7 +93,6 @@
   }
 
   .containerContent{
-    background-color: #adc8ed;
     border-radius: 2rem;
     width: 80rem;
     margin: 2px;
