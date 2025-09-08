@@ -1,7 +1,7 @@
 .containerProjects{
         display: flex;
         flex-direction: column;
-        height: 100vh;
+        height: auto;
         background: linear-gradient(#b8cfef, white)
     }
 
@@ -28,7 +28,7 @@
 @media (min-width: 768px){
     .containerProjects{
         display: flex;
-        height: 100vh;
+        height: auto;
     }
 
     .containerTitle{

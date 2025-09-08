@@ -1,3 +1,79 @@
+.containerContactMe{
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        background: linear-gradient(white, #b8cfef);
+    }
+
+    .containerTitleContact{
+        padding-left: 2rem;
+    }
+
+    .containerContentContact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+    }
+
+    .containerEllipse1{
+        height: 30rem;
+        background-color: #9dbeed;
+        z-index: 1;
+    }
+
+    .containerEllipse2{
+        height: 32rem;
+        background-color: #538edf;
+        z-index: 2;
+    }
+
+    .containerEllipse3{
+        height: 34rem;
+        background-color: #b8cfef;
+        z-index: 3;
+    }
+
+    .containerInput{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        z-index: 4;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 19rem;
+        gap: 1rem;
+    }
+
+    label{
+        line-height: 0.5rem;
+    }
+
+    input{
+        height: 2rem;
+        border-radius: 0.5rem;
+        border: 0;
+        box-shadow:20ch;
+    }
+
+    textarea {
+        height: 6rem;
+        border-radius: 0.5rem;
+        border: 0;
+    }
+
+    button {
+        height: 2rem;
+        background: #2068cd;
+        color: white;
+        border-radius: 2rem;
+        border: 0;
+    }
+
 @media (min-width: 768px){
     .containerContactMe{
         display: flex;
@@ -15,26 +91,64 @@
         justify-content: center;
         align-items: center;
         height: 80vh;
+        padding-bottom: 5rem;
     }
 
     .containerEllipse1{
-        width: 40rem;
-        height: 40rem;
+        width: 50rem;
+        height: 50rem;
         background-color: #9dbeed;
-        z-index: 3;
+        z-index: 1;
     }
 
     .containerEllipse2{
-        width: 42rem;
-        height: 42rem;
+        width: 52rem;
+        height: 52rem;
         background-color: #538edf;
         z-index: 2;
     }
 
     .containerEllipse3{
-        width: 44rem;
-        height: 44rem;
+        width: 54rem;
+        height: 54rem;
         background-color: #b8cfef;
-        z-index: 1;
+        z-index: 3;
     }
+
+    .containerInput{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        z-index: 4;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 44rem;
+        gap: 1rem;
+    }
+
+    input{
+        height: 2rem;
+        border-radius: 0.5rem;
+        border: 0;
+        box-shadow:20ch;
+    }
+
+    textarea {
+        height: 8rem;
+        border-radius: 0.5rem;
+        border: 0;
+    }
+
+    button {
+        height: 2rem;
+        background: #2068cd;
+        color: white;
+        border-radius: 2rem;
+        border: 0;
+    }
+
 }

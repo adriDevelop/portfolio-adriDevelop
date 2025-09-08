@@ -70,7 +70,8 @@
   .containerWelcome {
     flex-direction: row;
     flex-wrap: wrap;
-    min-height: 87vh;
+    border-top-style: none;
+    min-height: 100vh;
   }
 
   .cardImage {

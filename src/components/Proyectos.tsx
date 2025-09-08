@@ -29,6 +29,36 @@ const Proyectos = () => {
         <div className="proyecto1">
             .
         </div>
+        <div className="proyecto1">
+            .
+        </div>
+        <div className="proyecto1">
+            .
+        </div>
+        <div className="proyecto1">
+            .
+        </div>
+        <div className="proyecto1">
+            .
+        </div>
+        <div className="proyecto1">
+            .
+        </div>
+        <div className="proyecto1">
+            .
+        </div>
+        <div className="proyecto1">
+            .
+        </div>
+        <div className="proyecto1">
+            .
+        </div>
+        <div className="proyecto1">
+            .
+        </div>
+        <div className="proyecto1">
+            .
+        </div>
       </div>
     </div>
   )
